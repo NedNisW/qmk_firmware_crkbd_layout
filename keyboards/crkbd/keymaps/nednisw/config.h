@@ -3,7 +3,7 @@
 #pragma once
 
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 200
+#define TAPPING_TERM 250
 
 #ifdef RGB_MATRIX_ENABLE
     #define RGB_MATRIX_KEYPRESSES
