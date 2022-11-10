@@ -11,8 +11,6 @@ VIA_ENABLE = no
 # Link Time Optimization (Reduces compiled size)
 LTO_ENABLE = yes
 
-COMBOS = yes
-
 SRC += ./process_records.c
 
 ifeq ($(TAP_DANCE_ENABLE),yes)
